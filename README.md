@@ -2,7 +2,7 @@
 - 1- چون داکر ایران رو تحریم کرده اول dns شکن یا امثال اون رو روی سرور تنظیم میکنیم :
 - resolvectl status
 - 2- نصب داکر از طریق کد های موجود در سایتش و تست نصب داکر
-        # Add Docker's official GPG key:
+    '''    # Add Docker's official GPG key:
     sudo apt-get update
     sudo apt-get install ca-certificates curl
     sudo install -m 0755 -d /etc/apt/keyrings
@@ -17,7 +17,7 @@
     sudo apt-get update
 
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-    sudo docker run hello-world
+    sudo docker run hello-world'''
 
 - 3- نصب rustdesk برای داکر، از طریق ساخت فایل docker-compose.yaml و اجرای ان
 - mkdir rustdesk
