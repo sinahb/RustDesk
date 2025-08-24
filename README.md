@@ -1,10 +1,10 @@
 ## مراحل نصب RustDesk روی سرور ایران : 
 - 1- چون داکر ایران رو تحریم کرده اول dns شکن یا امثال اون رو روی سرور تنظیم میکنیم :
-'
-resolvectl status
-'
+
+'''resolvectl status
+
 - 2- نصب داکر از طریق کد های موجود در سایتش و تست نصب داکر
-        # Add Docker's official GPG key:
+   '''# Add Docker's official GPG key:
     sudo apt-get update
     sudo apt-get install ca-certificates curl
     sudo install -m 0755 -d /etc/apt/keyrings
